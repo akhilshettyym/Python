@@ -20,4 +20,3 @@ print(type(tuple))
 
 b = ()
 print(b)
-
