@@ -7,3 +7,8 @@
 # If the loop is entered, the process of [condition check & execution] is continued until
 # the condition becomes False.
 
+i = 1
+while (i<5):
+    print(i)
+    i = i+1
+
