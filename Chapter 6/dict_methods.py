@@ -80,6 +80,3 @@ a = {
 b = a.popitem()
 print(b)  # Output: ('age', 21)
 print(a)  # Output: {'name': 'Akhil'}
-
-
-
