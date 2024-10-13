@@ -4,12 +4,12 @@
 n = int(input("Enter a number: "))
 f = 1
 for i in range(1, n + 1):
-    f *= i
-    print("Factorial of", n, "is:", f)  
+    f = f * i
+print("Factorial of", n, "is:", f)  
 
 
 n = int(input("Enter a number: "))
 f = 1
 for i in range(1, n+1):
     f = f * i
-    print(f"Factorial of {n} is {f}")
+print(f"Factorial of {n} is {f}")
