@@ -12,3 +12,4 @@ def goodDay(name, ending="Thank you"):
     print(f"Good day, {name} {ending}.")
 goodDay("Akhil")
 goodDay("Akhi", "Thanks")
+
