@@ -13,3 +13,5 @@ def goodDay(name, ending="Thank you"):
 goodDay("Akhil")
 goodDay("Akhi", "Thanks")
 
+goodDay("Akhil")
+
