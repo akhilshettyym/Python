@@ -4,14 +4,14 @@ f = int(input("Enter temperature in Celsius :"))
 def Fahrenheit(f):
     c = (f - 32) * 5/9
     return c
-print("Temperature in Fahrenheit is : ",Fahrenheit(f))
+print(f"Temperature in Fahrenheit is {Fahrenheit(f)}°")
 
 # Write a python program using function to convert Fahrenheit to Celsius.
 c = int(input("Enter the temperature in Fahrenheit :"))
 def Celsius(c):
     f = (9/5 * c) + 32
     return f
-print("Temperature in Celsius is : ", Celsius(c))
+print(f"Temperature in Celsius is {Celsius(c)}°")
 
 
 # °C = (°F - 32) × 5/9
