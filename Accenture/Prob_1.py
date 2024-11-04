@@ -1,5 +1,7 @@
 # Write a function that accepts three parameters: two positive integers r and unit, and a  positive integer array arr of size n.  
-# •⁠  ⁠r represents the number of rats present in an area.  • unit is the amount of food each rat consumes.  • Each element of the array arr represents the amount of food present in each house,  where the index of the array corresponds to the house number.  
+# •⁠  ⁠r represents the number of rats present in an area.  
+# • unit is the amount of food each rat consumes.  
+# • Each element of the array arr represents the amount of food present in each house,  where the index of the array corresponds to the house number.  
 # The function should determine the minimum number of houses required to provide  enough food for all the rats.
 
 def calculate(r, unit, arr, n):
