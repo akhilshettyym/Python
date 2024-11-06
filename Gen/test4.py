@@ -18,3 +18,5 @@ print(f"{num1} + {num2} = {addition}")
 print(f"{num1} - {num2} = {subtraction}")
 print(f"{num1} * {num2} = {multiplication}")
 print(f"{num1} / {num2} = {division}")
+
+print("Executed")
