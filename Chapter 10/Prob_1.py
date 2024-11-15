@@ -8,3 +8,12 @@ if ("Twinkle" in content):
 else:
     print("The word 'twinkle' is not present in the file.")
 f.close()
+
+# Using with statement
+
+with open("Chapter 10/poem.txt") as f:
+    content = f.read()
+    if ("Twinkle" in content):
+        print("The word 'twinkle' is present in the file.")
+    else:
+        print("The word 'twinkle' is not present in the file.")
