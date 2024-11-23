@@ -17,3 +17,5 @@ with open("Chapter 10/poem.txt") as f:
         print("The word 'twinkle' is present in the file.")
     else:
         print("The word 'twinkle' is not present in the file.")
+
+print("End of the program")
